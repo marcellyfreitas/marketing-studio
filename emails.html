@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing Studio - Templates de E-mail</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#2563EB"/>
+          <path d="M8 22V10l8 6-8 6z" fill="#fff"/>
+          <path d="M16 22V10l8 6-8 6z" fill="#fff" opacity="0.5"/>
+        </svg>
+        Marketing Studio
+      </a>
+      <button class="navbar-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar-links">
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="emails.html" class="active">Templates de Email</a></li>
+        <li><a href="landing-page.html">Landing Page</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+
+      <!-- Page Header -->
+      <div class="page-header">
+        <h1>Templates de E-mail</h1>
+        <p>Visualização de modelos utilizados em campanhas.</p>
+      </div>
+
+      <!-- Cards -->
+      <div class="cards-grid">
+
+        <!-- Card 1: Boas-vindas -->
+        <div class="card">
+          <div class="card-icon blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <line x1="19" y1="8" x2="19" y2="14"/>
+              <line x1="22" y1="11" x2="16" y2="11"/>
+            </svg>
+          </div>
+          <h3>Boas-vindas</h3>
+          <p>Email enviado após cadastro do usuário. Apresenta a plataforma e convida à ação.</p>
+          <button class="btn btn-primary btn-preview" data-target="welcome-template">Visualizar</button>
+
+          <!-- Email Template: Boas-vindas -->
+          <div id="welcome-template" class="email-preview">
+            <div class="email-frame">
+              <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 12px; overflow: hidden; font-family: 'Poppins', Arial, Helvetica, sans-serif;">
+                <!-- Header -->
+                <tr>
+                  <td style="background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%); padding: 32px; text-align: center;">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="text-align: center;">
+                          <span style="font-size: 24px; font-weight: 700; color: #ffffff; letter-spacing: -0.5px;">Marketing Studio</span>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- Hero Image -->
+                <tr>
+                  <td style="padding: 0;">
+                    <div style="width: 100%; height: 180px; background: linear-gradient(135deg, #DBEAFE 0%, #93C5FD 100%); display: flex; align-items: center; justify-content: center;">
+                      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.6;">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                        <polyline points="9 22 9 12 15 12 15 22"/>
+                      </svg>
+                    </div>
+                  </td>
+                </tr>
+                <!-- Content -->
+                <tr>
+                  <td style="padding: 40px 32px 16px; text-align: center;">
+                    <h1 style="margin: 0 0 16px; font-size: 26px; font-weight: 700; color: #1F2937;">Bem-vindo!</h1>
+                    <p style="margin: 0 0 32px; font-size: 15px; color: #6B7280; line-height: 1.7;">
+                      Obrigado por criar sua conta.<br>
+                      Estamos muito felizes em tê-lo conosco. Explore todas as funcionalidades e comece a criar suas campanhas agora mesmo.
+                    </p>
+                    <a href="#" style="display: inline-block; padding: 14px 36px; background-color: #2563EB; color: #ffffff; font-size: 15px; font-weight: 600; border-radius: 12px; text-decoration: none; transition: background-color 0.3s;">
+                      Começar Agora
+                    </a>
+                  </td>
+                </tr>
+                <!-- Spacer -->
+                <tr>
+                  <td style="padding: 16px 32px;">
+                    <hr style="border: none; border-top: 1px solid #E5E7EB; margin: 0;">
+                  </td>
+                </tr>
+                <!-- Footer -->
+                <tr>
+                  <td style="padding: 16px 32px 32px; text-align: center;">
+                    <p style="margin: 0 0 8px; font-size: 12px; color: #9CA3AF;">
+                      Este e-mail foi enviado por Marketing Studio.
+                    </p>
+                    <p style="margin: 0; font-size: 12px; color: #9CA3AF;">
+                      © 2026 Marketing Studio. Todos os direitos reservados.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Promoção -->
+        <div class="card">
+          <div class="card-icon orange">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="16"/>
+              <line x1="8" y1="12" x2="16" y2="12"/>
+            </svg>
+          </div>
+          <h3>Promoção</h3>
+          <p>Campanha promocional para impulsionar vendas e conversões.</p>
+          <button class="btn btn-primary btn-preview" data-target="promo-template">Visualizar</button>
+
+          <!-- Email Template: Promoção -->
+          <div id="promo-template" class="email-preview">
+            <div class="email-frame">
+              <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 12px; overflow: hidden; font-family: 'Poppins', Arial, Helvetica, sans-serif;">
+                <!-- Banner -->
+                <tr>
+                  <td style="background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%); padding: 40px 32px; text-align: center;">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="text-align: center;">
+                          <span style="display: inline-block; background: rgba(255,255,255,0.2); padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; color: #ffffff; letter-spacing: 1px; text-transform: uppercase;">Oferta Especial</span>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- Content -->
+                <tr>
+                  <td style="padding: 40px 32px; text-align: center;">
+                    <h1 style="margin: 0 0 8px; font-size: 42px; font-weight: 800; color: #D97706;">50% OFF</h1>
+                    <p style="margin: 0 0 8px; font-size: 18px; font-weight: 600; color: #1F2937;">em todos os planos</p>
+                    <p style="margin: 0 0 32px; font-size: 15px; color: #6B7280; line-height: 1.7;">
+                      Aproveite nossa oferta exclusiva por tempo limitado.<br>
+                      Transforme suas campanhas com ferramentas profissionais.
+                    </p>
+                    <a href="#" style="display: inline-block; padding: 14px 36px; background-color: #D97706; color: #ffffff; font-size: 15px; font-weight: 600; border-radius: 12px; text-decoration: none;">
+                      Comprar
+                    </a>
+                  </td>
+                </tr>
+                <!-- Features -->
+                <tr>
+                  <td style="padding: 0 32px 32px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" style="background: #FFFBEB; border-radius: 12px; border: 1px solid #FDE68A;">
+                      <tr>
+                        <td style="padding: 20px 24px;">
+                          <table width="100%" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td width="33%" style="text-align: center; padding: 8px;">
+                                <p style="margin: 0; font-size: 13px; color: #92400E;">✅ Templates Ilimitados</p>
+                              </td>
+                              <td width="33%" style="text-align: center; padding: 8px;">
+                                <p style="margin: 0; font-size: 13px; color: #92400E;">✅ Suporte 24/7</p>
+                              </td>
+                              <td width="33%" style="text-align: center; padding: 8px;">
+                                <p style="margin: 0; font-size: 13px; color: #92400E;">✅ Analytics Completo</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- Spacer -->
+                <tr>
+                  <td style="padding: 0 32px 16px;">
+                    <hr style="border: none; border-top: 1px solid #E5E7EB; margin: 0;">
+                  </td>
+                </tr>
+                <!-- Footer -->
+                <tr>
+                  <td style="padding: 16px 32px 32px; text-align: center;">
+                    <p style="margin: 0 0 8px; font-size: 12px; color: #9CA3AF;">
+                      Você recebeu este e-mail porque está cadastrado no Marketing Studio.
+                    </p>
+                    <p style="margin: 0 0 8px; font-size: 12px; color: #9CA3AF;">
+                      © 2026 Marketing Studio. Todos os direitos reservados.
+                    </p>
+                    <p style="margin: 0; font-size: 12px;">
+                      <a href="#" style="color: #2563EB; text-decoration: underline;">Cancelar inscrição</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Marketing Studio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

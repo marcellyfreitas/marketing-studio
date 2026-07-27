@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing Studio - Painel de Marketing</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#2563EB"/>
+          <path d="M8 22V10l8 6-8 6z" fill="#fff"/>
+          <path d="M16 22V10l8 6-8 6z" fill="#fff" opacity="0.5"/>
+        </svg>
+        Marketing Studio
+      </a>
+      <button class="navbar-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar-links">
+        <li><a href="index.html" class="active">Dashboard</a></li>
+        <li><a href="emails.html">Templates de Email</a></li>
+        <li><a href="landing-page.html">Landing Page</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+
+      <!-- Page Header -->
+      <div class="page-header">
+        <h1>Painel de Marketing</h1>
+        <p>Gerencie templates de e-mail e landing pages.</p>
+      </div>
+
+      <!-- Cards -->
+      <div class="cards-grid">
+
+        <!-- Card 1: Templates de Email -->
+        <div class="card">
+          <div class="card-icon blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+          </div>
+          <h3>Templates de Email</h3>
+          <p>2 templates disponíveis para suas campanhas de e-mail marketing.</p>
+          <a href="emails.html" class="btn btn-primary">Visualizar</a>
+        </div>
+
+        <!-- Card 2: Landing Pages -->
+        <div class="card">
+          <div class="card-icon green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
+              <polyline points="13 2 13 9 20 9"/>
+            </svg>
+          </div>
+          <h3>Landing Pages</h3>
+          <p>1 página criada com editor de personalização em tempo real.</p>
+          <a href="landing-page.html" class="btn btn-primary">Abrir</a>
+        </div>
+
+        <!-- Card 3: Campanhas -->
+        <div class="card">
+          <div class="card-icon orange">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3>Campanhas</h3>
+          <p>Modo demonstração - funcionalidade em desenvolvimento.</p>
+          <button class="btn btn-disabled" disabled>Em breve</button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Marketing Studio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
