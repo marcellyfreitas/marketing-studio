@@ -24,17 +24,17 @@ Este projeto foi desenvolvido como portfólio técnico, com o objetivo de demons
 
 ## 🖥️ Demonstração
 
-<!-- Insira aqui um GIF demonstrando a navegação entre as páginas -->
-<!-- ![Demonstração do Marketing Studio](assets/demo.gif) -->
+### Dashboard
 
-<!-- Screenshots das páginas -->
-<!-- ![Dashboard](assets/screenshot-dashboard.png) -->
+![Dashboard do Marketing Studio](assets/screenshot-dashboard.png)
 
-<!-- ![Landing Page](assets/screenshot-landing-page.png) -->
+### Templates de E-mail
 
-<!-- ![Templates de E-mail](assets/screenshot-emails.png) -->
+![Templates de E-mail Marketing](assets/screenshot-emails.png)
 
-> 📌 As imagens acima são placeholders. Insira seus screenshots na pasta `assets/` e descomente as linhas acima.
+### Landing Page com Editor
+
+![Landing Page com Painel de Personalização](assets/screenshot-landing-page.png)
 
 ---
 
